@@ -1,0 +1,44 @@
+# Окружение и секреты
+.venv/
+venv/
+env/
+.env
+app/.env
+*.env.local
+
+# Python (кэш от локальных запусков, включая вложенные)
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# База данных (локальная)
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Логи
+app/logs/
+*.log
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cursor
+.cursor/

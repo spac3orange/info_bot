@@ -1,0 +1,111 @@
+# В каждом разделе и подразделе можно указать images: [] или до 3 URL/путей к картинкам
+welcome:
+  text: "Добро пожаловать! Выберите раздел в меню ниже."
+  image_path: ""
+  image_url: ""
+
+info:
+  text: "Информация\n"
+  images: []
+
+sections:
+  - id: "1"
+    title: "Раздел 1"
+    text: "Описание раздела 1. Выберите подраздел."
+    images: []
+    children:
+      - id: "1_1"
+        title: "Подраздел 1.1"
+        text: "Текст подраздела 1.1."
+        images: []
+        children: []
+      - id: "1_2"
+        title: "Подраздел 1.2"
+        text: "Текст подраздела 1.2."
+        images: []
+        children: []
+      - id: "1_3"
+        title: "Подраздел 1.3"
+        text: "Текст подраздела 1.3."
+        images: []
+        children: []
+  - id: "2"
+    title: "Раздел 2"
+    text: "Описание раздела 2. Выберите подраздел."
+    images: []
+    children:
+      - id: "2_1"
+        title: "Подраздел 2.1"
+        text: "Текст подраздела 2.1."
+        images: []
+        children: []
+      - id: "2_2"
+        title: "Подраздел 2.2"
+        text: "Текст подраздела 2.2."
+        images: []
+        children: []
+      - id: "2_3"
+        title: "Подраздел 2.3"
+        text: "Текст подраздела 2.3."
+        images: []
+        children: []
+      - id: "2_4"
+        title: "Подраздел 2.4"
+        text: "Текст подраздела 2.4."
+        images: []
+        children: []
+      - id: "2_5"
+        title: "Подраздел 2.5"
+        text: "Текст подраздела 2.5."
+        images: []
+        children: []
+  - id: "3"
+    title: "Раздел 3"
+    text: "Описание раздела 3. Выберите подраздел."
+    images: []
+    children:
+      - id: "3_1"
+        title: "Подраздел 3.1"
+        text: "Текст подраздела 3.1."
+        images: []
+        children: []
+      - id: "3_2"
+        title: "Подраздел 3.2"
+        text: "Текст подраздела 3.2."
+        images: []
+        children: []
+      - id: "3_3"
+        title: "Подраздел 3.3"
+        text: "Текст подраздела 3.3."
+        images: []
+        children: []
+  - id: "4"
+    title: "Раздел 4"
+    text: "Описание раздела 4. Выберите подраздел."
+    images: []
+    children:
+      - id: "4_1"
+        title: "Подраздел 4.1"
+        text: "Текст подраздела 4.1."
+        images: []
+        children: []
+      - id: "4_2"
+        title: "Подраздел 4.2"
+        text: "Текст подраздела 4.2."
+        images: []
+        children: []
+      - id: "4_3"
+        title: "Подраздел 4.3"
+        text: "Текст подраздела 4.3."
+        images: []
+        children: []
+  - id: "5"
+    title: "Раздел 5"
+    text: "Описание раздела 5. Выберите подраздел."
+    images: []
+    children:
+      - id: "5_1"
+        title: "Подраздел 5.1"
+        text: "Текст подраздела 5.1."
+        images: []
+        children: []

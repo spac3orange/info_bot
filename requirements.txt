@@ -1,0 +1,6 @@
+aiogram>=3.24.0
+aiosqlite
+sqlalchemy[asyncio]
+environs
+PyYAML
+loguru
