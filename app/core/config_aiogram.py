@@ -19,10 +19,13 @@ class Config:
 
 def load_config(path: str | Path | None = None) -> Config:
     env = Env()
-    if path is None:
-        path = Path(__file__).resolve().parent.parent / ".env"
-    env.read_env(path)
-    return Config(tg_bot=TgBot(token=env('BOT_TOKEN')), admin_id=env('ADMIN_ID'))
+    env_path = Path(path) if path is not None else Path(__file__).resolve().parent.parent / ".env"
+    if env_path.exists():
+        env.read_env(env_path)
+    return Config(
+        tg_bot=TgBot(token=env("BOT_TOKEN")),
+        admin_id=env("ADMIN_ID", default=""),
+    )
 
 
 config_aiogram = load_config()

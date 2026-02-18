@@ -7,3 +7,10 @@ BOT_TOKEN=your_bot_token_here
 # ID администратора (доступ к админ-панели и рассылке). Несколько — через запятую
 ADMIN_ID=123456789
 
+# (опционально) DSN для базы данных. По умолчанию используется SQLite по пути /app/data/bot.db
+# Для Docker-окружения обычно достаточно оставить значение по умолчанию и пробросить volume в /app/data
+# Примеры:
+#   sqlite+aiosqlite:////app/data/bot.db
+#   sqlite+aiosqlite:////app/data/custom.db
+DATABASE_URL=sqlite+aiosqlite:////app/data/bot.db
+

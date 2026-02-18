@@ -1,0 +1,38 @@
+.git
+.gitignore
+
+# IDE / editor
+.idea
+.vscode
+.cursor
+
+# Virtualenv
+.venv
+.venv/
+venv
+venv/
+env
+env/
+
+# Python cache
+__pycache__
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+app/.env
+
+# Local runtime data
+data
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+app/logs
+app/logs/
+*.log
+
